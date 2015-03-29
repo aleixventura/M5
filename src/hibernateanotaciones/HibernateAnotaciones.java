@@ -26,7 +26,7 @@ public class HibernateAnotaciones {
         Contacto contacto1 = new Contacto("Contacto 1", "contacto1@contacto.com", "12345678"); 
         Contacto contacto2 = new Contacto("Contacto 2", "contacto2@contacto.com", "87654321"); 
         Contacto contacto3 = new Contacto("Contacto 3", "contacto3@contacto.com", "45612378");  
-
+        System.out.println("Hola");
         //Guardamos las tres instancias, guardamos el id del contacto1 para usarlo posteriormente 
         idAEliminar = contactosDAO.guardaContacto(contacto1); 
         contactosDAO.guardaContacto(contacto2); 
